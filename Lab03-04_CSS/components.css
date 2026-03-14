@@ -1,0 +1,19 @@
+button{
+    padding:10px 20px;
+    border:none;
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+}
+
+.card{
+    border:1px solid #ccc;
+    padding:20px;
+    margin:20px 0;
+    border-radius:8px;
+}
+
+.gallery img{
+    width:200px;
+    margin:10px;
+}

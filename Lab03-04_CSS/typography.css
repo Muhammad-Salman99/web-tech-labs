@@ -1,0 +1,58 @@
+/* Import a nice font for a cleaner look */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #f1f5f9;
+    color: #334155;
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    font-family: 'Georgia', serif; /* Serif font to contrast with the body text */
+    font-size: 2.2rem;
+    color: #0f172a;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 15px;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background-color: #f8fafc;
+    border-left: 4px solid #cbd5e1; /* Default gray border */
+    border-radius: 0 8px 8px 0;
+    transition: transform 0.2s ease;
+}
+
+p:hover {
+    transform: translateX(5px); /* Slight hover effect */
+}
+
+/* Specific Typography Classes */
+
+.bold {
+    font-weight: 700;
+    border-left-color: #3b82f6; /* Blue accent for bold */
+}
+
+.italic {
+    font-style: italic;
+    border-left-color: #10b981; /* Green accent for italic */
+}
+
+.upper {
+    text-transform: uppercase;
+    letter-spacing: 0.05em; /* Added letter spacing to make uppercase easier to read */
+    border-left-color: #f59e0b; /* Orange accent for uppercase */
+}
